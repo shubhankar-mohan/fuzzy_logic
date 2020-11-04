@@ -1,7 +1,5 @@
-import utils
 import warnings
-import levenshtein_similarity
-import cosine_similarity
+from utils import utils, levenshtein_similarity, cosine_similarity
 
 
 @utils.check_for_none
