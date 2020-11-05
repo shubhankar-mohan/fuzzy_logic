@@ -1,4 +1,44 @@
-##### The library provides functions for fuzzy string matching, fuzzy round-off for floats and a fuzzy function of dividing a integer into a integer distribution according to given percentage. 
+## FuzzyLogic
+
+The library provides functions for fuzzy string matching, fuzzy round-off for floats and a fuzzy function of dividing a integer into a integer distribution according to given percentage. 
+
+
+
+## Requirements
+
+- Python 3.5 or higher
+
+- difflib
+
+- numpy
+
+  
+
+## Installation
+
+Using PIP via PyPI
+
+```
+pip install fuzzylogic
+```
+
+Using PIP via Github
+
+```
+pip install git+git://github.com/shubhankar-mohan/fuzzylogic.git
+```
+
+Manually via GIT
+
+```xx
+git clone git://github.com/shubhankar-mohan/fuzzylogic.git
+cd fuzzywuzzy
+python setup.py install
+```
+
+
+
+## Examples
 
 #### Fuzzy Numeric Functions 
 
