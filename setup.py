@@ -4,15 +4,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="fuzzy_logic", # Replace with your own username
-    version="0.1.1",
+    name="fuzzy_logic",
+    version="0.1.3",
     author="Shubhankar Mohan",
     author_email="mohanshubhankar@gmail.com",
     description="The library provides functions for fuzzy string matching, fuzzy round-off for floats and a fuzzy "
                 "function of dividing a integer into a integer distribution according to given percentage.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/shubhankar-mohan/fuzzy_logic",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

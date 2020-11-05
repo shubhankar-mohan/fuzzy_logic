@@ -1,6 +1,6 @@
 ## Fuzzy Logic
 
-The library provides functions for fuzzy string matching, fuzzy round-off for floats and a fuzzy function of dividing a integer into a integer distribution according to given percentage. 
+The library provides functions for fuzzy string matching, fuzzy round-off of floats and a fuzzy function for dividing an integer into an integer distribution according to given percentage. 
 
 
 
@@ -168,8 +168,6 @@ python setup.py install
   ```
 
   
-
-
 
 - **Sub String Similarity** - Returns maximum similarity between all possible sub-strings combinations of two strings based on levenshtein
           similarity.
