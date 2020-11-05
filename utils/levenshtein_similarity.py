@@ -37,7 +37,7 @@ def substring_similarity(string1, string2):
     blocks = m.get_matching_blocks()
 
     scores = []
-    print(blocks)
+
     for block in blocks:
         if block[2] > 0:
             sub_s1 = string1[block[0]: block[0] + block[2]]
@@ -46,8 +46,3 @@ def substring_similarity(string1, string2):
     if len(scores) == 0:
         return 0
     return max(scores)
-
-
-if __name__ == '__main__':
-    print(substring_similarity("my name is shubhankar", 'iam'))
-
