@@ -1,4 +1,4 @@
-## FuzzyLogic
+## Fuzzy Logic
 
 The library provides functions for fuzzy string matching, fuzzy round-off for floats and a fuzzy function of dividing a integer into a integer distribution according to given percentage. 
 
@@ -19,20 +19,20 @@ The library provides functions for fuzzy string matching, fuzzy round-off for fl
 Using PIP via PyPI
 
 ```
-pip install fuzzylogic
+pip install fuzzy_logic
 ```
 
 Using PIP via Github
 
 ```
-pip install git+git://github.com/shubhankar-mohan/fuzzylogic.git
+pip install git+git://github.com/shubhankar-mohan/fuzzy_logic.git
 ```
 
 Manually via GIT
 
 ```xx
-git clone git://github.com/shubhankar-mohan/fuzzylogic.git
-cd fuzzywuzzy
+git clone git://github.com/shubhankar-mohan/fuzzy_logic.git
+cd fuzzy_logic
 python setup.py install
 ```
 

@@ -30,7 +30,3 @@ def string_similarity(text1, text2):
     vector2 = text_to_vector(text2)
     cosine = get_cosine(vector1, vector2)
     return round(100*cosine, 2)
-
-
-if __name__ == '__main__':
-    print(string_similarity("fuzzy fuzzy shubhankar i am", 'fuzzy shubhankar i am'))
