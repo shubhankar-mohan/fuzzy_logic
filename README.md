@@ -53,7 +53,7 @@ python setup.py install
   ```
 
   ```python
-  >>> from fuzzylogic import fuzzynumeric
+  >>> from fuzzy_logic import fuzzynumeric
   >>> fuzzynumeric.fuzzy_round(1.6)
   >>> 2
   >>> fuzzynumeric.fuzzy_round(1.6, break_point=0.8)
@@ -82,7 +82,7 @@ python setup.py install
   ```
 
   ```python
-  >>> from fuzzylogic import fuzzynumeric
+  >>> from fuzzy_logic import fuzzynumeric
   >>> fuzzynumeric.fuzzy_integer_distribution(5, [.2, .3, .5])
   >>> [1, 1, 3]
   
@@ -136,7 +136,7 @@ python setup.py install
   ```
 
   ```python
-  >>> from fuzzylogic import fuzzystring
+  >>> from fuzzy_logic import fuzzystring
   
   >>> fuzzystring.string_similarity("mouse keyboard are part of computer", "mouse keyboard are part of computer", method=0)
   >>> 100.0
@@ -187,7 +187,7 @@ python setup.py install
 
 
   ```python
-  >>> from fuzzylogic import fuzzystring
+  >>> from fuzzy_logic import fuzzystring
   
   >>> fuzzystring.string_similarity("mouse mouse keyboard are part of computer", "mouse keyboard are part of computer")
   >>> 95.26

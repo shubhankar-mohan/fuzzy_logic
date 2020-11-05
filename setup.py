@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="fuzzylogic", # Replace with your own username
-    version="0.0.2",
+    name="fuzzy_logic", # Replace with your own username
+    version="0.1.1",
     author="Shubhankar Mohan",
     author_email="mohanshubhankar@gmail.com",
     description="The library provides functions for fuzzy string matching, fuzzy round-off for floats and a fuzzy "

@@ -1,2 +1,9 @@
 .idea/
 __pycache__/
+
+# Build files
+build
+dist
+pkg
+*.egg
+*.egg-info
