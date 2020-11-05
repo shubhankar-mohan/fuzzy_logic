@@ -19,7 +19,7 @@ The library provides functions for fuzzy string matching, fuzzy round-off of flo
 Using PIP via PyPI
 
 ```
-pip install fuzzy_logic
+pip install fuzzy_logics
 ```
 
 Using PIP via Github
